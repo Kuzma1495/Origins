@@ -15,9 +15,7 @@ int a = Convert.ToInt32(Console.ReadLine());
 Console.Write("Введите второе число: ");
 int b = Convert.ToInt32(Console.ReadLine());
 
-int c = a*a;
-
-if (c == b)
+if (a*a == b || b*b == a)
     Console.WriteLine("Yes");
 else
     Console.WriteLine("No");
